@@ -1,0 +1,32 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-09-27 00:10:09
+project --topLevelPackage com.wedding
+jpa setup --provider OPENJPA --database HYPERSONIC_PERSISTENT
+database properties list
+database properties set --key database.url --value jdbc:hsqldb:${user.home}/my-wedding
+database properties list
+entity jpa --class ~.domain.Rsvp --testAutomatically
+field string code --notNull --sizeMin 1 --sizeMax 30
+field string email --sizeMax 30
+field number attending --type java.lang.Integer
+field string specialRequests --sizeMax 100
+field date confirmed --type java.util.Date
+web mvc setup
+web mvc scaffold ~.web.RsvpController
+selenium test --controller ~.web.RsvpController
+logging setup --level ERROR --package WEB
+security setup
+web mvc controller --class ~.web.PublicRsvpController
+finder list --class ~.domain.Rsvp --filter code,equ
+finder add --finderName findRsvpsByCodeEquals
+email sender setup --hostServer 127.0.0.1
+field email template --class ~.web.PublicRsvpController
+// script --file wedding.roo
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-09-27 00:10:16
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-09-27 00:38:12
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-09-27 00:38:16
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-09-27 00:38:36
+jpa setup --provider openjpa --database POSTGRES
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-09-27 00:38:40

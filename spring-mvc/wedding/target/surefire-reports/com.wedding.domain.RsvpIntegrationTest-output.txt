@@ -1,0 +1,30 @@
+17  persistenceUnit  WARN   [main] openjpa.Runtime - An error occurred while registering a ClassTransformer with PersistenceUnitInfo: name 'persistenceUnit', root URL [file:/Users/laird/GitHub/allthingsgo/longhair-cow/spring-mvc/wedding/target/classes]. The error has been consumed. To see it, set your openjpa.Runtime log level to TRACE. Load-time class transformation will not be available.
+88  persistenceUnit  INFO   [main] openjpa.Runtime - OpenJPA dynamically loaded a validation provider.
+400  persistenceUnit  INFO   [main] openjpa.Runtime - Starting OpenJPA 2.2.2
+462  persistenceUnit  INFO   [main] openjpa.jdbc.JDBC - Using dictionary class "org.apache.openjpa.jdbc.sql.PostgresDictionary".
+767  persistenceUnit  WARN   [main] openjpa.jdbc.Schema - Existing column "code" on table "public.Rsvp" is incompatible with the same column in the given schema definition. Existing column:
+Full Name: Rsvp.code
+Type: varchar
+Size: 30
+Default: null
+Not Null: true
+Given column:
+Full Name: Rsvp.code
+Type: varchar
+Size: 255
+Default: null
+Not Null: false
+
+767  persistenceUnit  WARN   [main] openjpa.jdbc.Schema - Existing column "email" on table "public.Rsvp" is incompatible with the same column in the given schema definition. Existing column:
+Full Name: Rsvp.email
+Type: varchar
+Size: 30
+Default: null
+Not Null: false
+Given column:
+Full Name: Rsvp.email
+Type: varchar
+Size: 255
+Default: null
+Not Null: false
+
