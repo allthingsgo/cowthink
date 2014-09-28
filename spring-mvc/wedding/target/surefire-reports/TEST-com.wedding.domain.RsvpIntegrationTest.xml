@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="1.954" errors="0" skipped="0" tests="9" name="com.wedding.domain.RsvpIntegrationTest">
+<testsuite failures="0" time="4.001" errors="0" skipped="0" tests="9" name="com.wedding.domain.RsvpIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -64,13 +64,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="1.837" classname="com.wedding.domain.RsvpIntegrationTest" name="testCountRsvps"/>
-  <testcase time="0.009" classname="com.wedding.domain.RsvpIntegrationTest" name="testFindAllRsvps"/>
-  <testcase time="0.007" classname="com.wedding.domain.RsvpIntegrationTest" name="testFlush"/>
-  <testcase time="0.064" classname="com.wedding.domain.RsvpIntegrationTest" name="testPersist"/>
+  <testcase time="3.784" classname="com.wedding.domain.RsvpIntegrationTest" name="testCountRsvps"/>
+  <testcase time="0.001" classname="com.wedding.domain.RsvpIntegrationTest" name="testFindAllRsvps"/>
+  <testcase time="0" classname="com.wedding.domain.RsvpIntegrationTest" name="testFlush"/>
+  <testcase time="0.187" classname="com.wedding.domain.RsvpIntegrationTest" name="testPersist"/>
   <testcase time="0.003" classname="com.wedding.domain.RsvpIntegrationTest" name="testMarkerMethod"/>
-  <testcase time="0.011" classname="com.wedding.domain.RsvpIntegrationTest" name="testMergeUpdate"/>
-  <testcase time="0.006" classname="com.wedding.domain.RsvpIntegrationTest" name="testFindRsvp"/>
-  <testcase time="0.009" classname="com.wedding.domain.RsvpIntegrationTest" name="testFindRsvpEntries"/>
-  <testcase time="0.008" classname="com.wedding.domain.RsvpIntegrationTest" name="testRemove"/>
+  <testcase time="0.009" classname="com.wedding.domain.RsvpIntegrationTest" name="testMergeUpdate"/>
+  <testcase time="0.004" classname="com.wedding.domain.RsvpIntegrationTest" name="testFindRsvp"/>
+  <testcase time="0.007" classname="com.wedding.domain.RsvpIntegrationTest" name="testFindRsvpEntries"/>
+  <testcase time="0.006" classname="com.wedding.domain.RsvpIntegrationTest" name="testRemove"/>
 </testsuite>
